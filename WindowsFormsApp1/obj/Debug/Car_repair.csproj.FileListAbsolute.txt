@@ -1,0 +1,90 @@
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\bin\Debug\en-US\WindowsFormsApp1.resources.dll
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\bin\Debug\Renci.SshNet.dll
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\bin\Debug\MySql.Data.xml
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\Car_repair.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HelpForm.resources
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.RepairForm.resources
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainEngForm.resources
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Language.resources
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SettingsForm.resources
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HelpForm.en-US.resources
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Language.en-US.resources
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainEngForm.en-US.resources
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.RepairForm.en-US.resources
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SettingsForm.en-US.resources
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\Car_repair.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\Car_repair.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\en-US\WindowsFormsApp1.resources.dll
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\Car_repair.csproj.CopyComplete
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\user\Desktop\Новая папка\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+M:\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+M:\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
+M:\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
+M:\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+M:\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+M:\WindowsFormsApp1\bin\Debug\en-US\WindowsFormsApp1.resources.dll
+M:\WindowsFormsApp1\bin\Debug\MySql.Data.dll
+M:\WindowsFormsApp1\bin\Debug\Google.Protobuf.dll
+M:\WindowsFormsApp1\bin\Debug\BouncyCastle.Crypto.dll
+M:\WindowsFormsApp1\bin\Debug\Renci.SshNet.dll
+M:\WindowsFormsApp1\bin\Debug\MySql.Data.xml
+M:\WindowsFormsApp1\obj\Debug\Car_repair.csprojAssemblyReference.cache
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HelpForm.resources
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.RepairForm.resources
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainEngForm.resources
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Language.resources
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SettingsForm.resources
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HelpForm.en-US.resources
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Language.en-US.resources
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainEngForm.en-US.resources
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.RepairForm.en-US.resources
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SettingsForm.en-US.resources
+M:\WindowsFormsApp1\obj\Debug\Car_repair.csproj.GenerateResource.cache
+M:\WindowsFormsApp1\obj\Debug\en-US\WindowsFormsApp1.resources.dll
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
+M:\WindowsFormsApp1\obj\Debug\Car_repair.csproj.CopyComplete
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+M:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+F:\WEB\Other work\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+F:\WEB\Other work\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
+F:\WEB\Other work\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
+F:\WEB\Other work\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+F:\WEB\Other work\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+F:\WEB\Other work\WindowsFormsApp1\bin\Debug\en-US\WindowsFormsApp1.resources.dll
+F:\WEB\Other work\WindowsFormsApp1\bin\Debug\MySql.Data.dll
+F:\WEB\Other work\WindowsFormsApp1\bin\Debug\Google.Protobuf.dll
+F:\WEB\Other work\WindowsFormsApp1\bin\Debug\BouncyCastle.Crypto.dll
+F:\WEB\Other work\WindowsFormsApp1\bin\Debug\Renci.SshNet.dll
+F:\WEB\Other work\WindowsFormsApp1\bin\Debug\MySql.Data.xml
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\Car_repair.csprojAssemblyReference.cache
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HelpForm.resources
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.RepairForm.resources
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainEngForm.resources
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Language.resources
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SettingsForm.resources
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HelpForm.en-US.resources
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Language.en-US.resources
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainEngForm.en-US.resources
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.RepairForm.en-US.resources
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SettingsForm.en-US.resources
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\Car_repair.csproj.GenerateResource.cache
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\en-US\WindowsFormsApp1.resources.dll
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\Car_repair.csproj.CopyComplete
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+F:\WEB\Other work\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

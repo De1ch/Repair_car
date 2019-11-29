@@ -43,21 +43,56 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DB db = new DB();
-            MySqlCommand command = new MySqlCommand("INSERT INTO `problems` (`mail`, `problem`, `problem_info`) VALUES (NULL, @mail, @problem, @problem_info);", db.getConnection());
+            MySqlConnection connection;
+            string server = "localhost";
+            string database = "project";
+            string uid = "root";
+            string password = "";
+            string connectionString;
+            connectionString = "SERVER=" + server + ";" + "DATABASE=" +
+            database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
+            connection = new MySqlConnection(connectionString);
 
-            command.Parameters.Add("@mail", MySqlDbType.VarChar).Value = TextBox1.Text;
-            command.Parameters.Add("@problem", MySqlDbType.VarChar).Value = comboBox2.Text;
-            command.Parameters.Add("@problem_info", MySqlDbType.VarChar).Value = richTextBox1.Text;
+            connection.ConnectionString = connectionString;
+            connection.Open();
+            MySqlCommand cmd = new MySqlCommand("insert into problems (mail, problem, problem_info) values(@mail, @problem, @problem_info)", connection);
+            cmd.Parameters.AddWithValue("@mail", TextBox1.Text);
+            cmd.Parameters.AddWithValue("@problem", comboBox2.Text);
+            cmd.Parameters.AddWithValue("@problem_info", richTextBox1.Text);
 
-            db.openConnection();
+            // проверка на заполнение полей
+            string err = "";
+            foreach (Control c in Controls)
+            {
+                if (c is ComboBox)
+                {
+                    if (string.IsNullOrEmpty((c as ComboBox).Text)) err = "Укажите проблему с которой Вы столкнулись!";
+                }
+                if (c is TextBox)
+                {
+                    if (string.IsNullOrEmpty((c as TextBox).Text)) err = "Введите адрес электронной почты!";
+                }
 
-            if (command.ExecuteNonQuery() == 1)
-                MessageBox.Show("ok");
-            else
-                MessageBox.Show("ne ok");
-
-            db.closeConnection();
+                if (c is RichTextBox)
+                {
+                    if (string.IsNullOrEmpty((c as RichTextBox).Text)) err = "Опишите подробно проблему с которой Вы столкнулись!";
+                }
+            }
+            if (err != "")
+                MessageBox.Show($"{err}");
+            // если поля заполнены и работает бд, даные отправляются
+            else if (cmd.ExecuteNonQuery() == 1) 
+            { 
+                MessageBox.Show("Ваше сообщение было отправленно!");
+                connection.Close();
+                // выход в меню после успешного отправления данных
+                Form mfrm = Application.OpenForms[0];
+                mfrm.StartPosition = FormStartPosition.Manual;
+                mfrm.Show();
+                this.Hide(); 
+            } else
+                MessageBox.Show("Не удалось отправить сообщение!");
+                connection.Close();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -66,6 +101,11 @@ namespace WindowsFormsApp1
         }
 
         private void HelpForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RichTextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
