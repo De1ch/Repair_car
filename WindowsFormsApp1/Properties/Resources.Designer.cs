@@ -125,6 +125,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sixt_auto_rent {
+            get {
+                object obj = ResourceManager.GetObject("sixt-auto-rent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap машина_вид_сбоку_png_1 {
             get {
                 object obj = ResourceManager.GetObject("машина-вид-сбоку-png-1", resourceCulture);

@@ -90,26 +90,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApp1.exe" size="4266976">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApp1.exe" size="4386272">
       <assemblyIdentity name="WindowsFormsApp1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>X2yd7rEUjFIaUPOqIruvUfR6644sstFFmJrPHnJS8eI=</dsig:DigestValue>
+        <dsig:DigestValue>FoWbm+q1Cyr1fwhxSBD1HpcYeT9d9a8Cq9JwTOvNmVE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en-US\WindowsFormsApp1.resources.dll" size="1091584">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en-US\WindowsFormsApp1.resources.dll" size="1099776">
       <assemblyIdentity name="WindowsFormsApp1.resources" version="1.0.0.0" language="en-US" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1WyYjUjuLe9REkC8Yc19Nxev/dVjp3BmUywQVCYwZQQ=</dsig:DigestValue>
+        <dsig:DigestValue>1VZkt+pa3KUKLk5Ot3zxAPEp58/ubgIEbSy1zXubI9I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

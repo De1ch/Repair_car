@@ -185,6 +185,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Engine/Audi.txt", System.Text.Encoding.Unicode);
 
                 while (!sr.EndOfStream)
@@ -194,12 +195,14 @@ namespace WindowsFormsApp1
             else 
             {
                 richTextBox1.Clear();
+                pictureBox1.Show();
                 richTextBox1.Text = "Укажите марку и модель автомобиля!";
                 
             }
             if (comboBox1.SelectedIndex == 1 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Engine/BMW.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -208,6 +211,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 2 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Engine/Chevrolet.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -216,6 +220,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 3 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Engine/Ford.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -224,6 +229,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 4 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Engine/Honda.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -232,6 +238,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 5 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Engine/Mazda.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -240,6 +247,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 6 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Engine/Mercedes-Benz.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -248,6 +256,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 7 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Engine/Nissan.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -256,6 +265,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 8 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Engine/Toyota.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -264,6 +274,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 9 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Engine/Volkswagen.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -276,6 +287,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Transmission/Audi.txt", System.Text.Encoding.Unicode);
 
                 while (!sr.EndOfStream)
@@ -285,12 +297,14 @@ namespace WindowsFormsApp1
             else
             {
                 richTextBox1.Clear();
+                pictureBox1.Show();
                 richTextBox1.Text = "Укажите марку и модель автомобиля!";
 
             }
             if (comboBox1.SelectedIndex == 1 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Transmission/BMW.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -299,6 +313,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 2 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Transmission/Chevrolet.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -307,6 +322,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 3 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Transmission/Ford.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -315,6 +331,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 4 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Transmission/Honda.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -323,6 +340,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 5 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Transmission/Mazda.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -331,6 +349,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 6 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Transmission/Mercedes-Benz.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -339,6 +358,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 7 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Transmission/Nissan.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -347,6 +367,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 8 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Transmission/Toyota.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -355,6 +376,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 9 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Transmission/Volkswagen.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -367,6 +389,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Suspension/Audi.txt", System.Text.Encoding.Unicode);
 
                 while (!sr.EndOfStream)
@@ -376,12 +399,14 @@ namespace WindowsFormsApp1
             else
             {
                 richTextBox1.Clear();
+                pictureBox1.Show();
                 richTextBox1.Text = "Укажите марку и модель автомобиля!";
 
             }
             if (comboBox1.SelectedIndex == 1 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Suspension/BMW.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -390,6 +415,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 2 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Suspension/Chevrolet.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -398,6 +424,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 3 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Suspension/Ford.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -406,6 +433,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 4 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Suspension/Honda.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -414,6 +442,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 5 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Suspension/Mazda.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -422,6 +451,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 6 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Suspension/Mercedes-Benz.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -430,6 +460,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 7 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Suspension/Nissan.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -438,6 +469,7 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 8 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Suspension/Toyota.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -446,17 +478,13 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 9 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                pictureBox1.Hide();
                 StreamReader sr = new StreamReader("Suspension/Volkswagen.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
                     richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
             }
         } 
-
-        private void pictureBox1_Click_1(object sender, EventArgs e)
-        {
-
-        }
 
 
         private void toolStripButton1_Click(object sender, EventArgs e)
@@ -526,17 +554,21 @@ namespace WindowsFormsApp1
 
         }
 
+
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
 
-
-
         private void RepairForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pictureBox1_Click_2(object sender, EventArgs e)
+        {
+
         }
     }
     } 

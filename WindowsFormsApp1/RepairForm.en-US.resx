@@ -140,19 +140,19 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 13</value>
+    <value>184, 15</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Indicate the year of manufacture:</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 13</value>
+    <value>120, 15</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Choose a car model:</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 13</value>
+    <value>106, 15</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Choose car make:</value>
