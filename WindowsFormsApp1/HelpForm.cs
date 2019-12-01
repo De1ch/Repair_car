@@ -64,15 +64,14 @@ namespace WindowsFormsApp1
             string err = "";
             foreach (Control c in Controls)
             {
-                if (c is ComboBox)
-                {
-                    if (string.IsNullOrEmpty((c as ComboBox).Text)) err = "Укажите проблему с которой Вы столкнулись!";
-                }
                 if (c is TextBox)
                 {
                     if (string.IsNullOrEmpty((c as TextBox).Text)) err = "Введите адрес электронной почты!";
                 }
-
+                if (c is ComboBox)
+                {
+                    if (string.IsNullOrEmpty((c as ComboBox).Text)) err = "Укажите проблему с которой Вы столкнулись!";
+                }
                 if (c is RichTextBox)
                 {
                     if (string.IsNullOrEmpty((c as RichTextBox).Text)) err = "Опишите подробно проблему с которой Вы столкнулись!";
