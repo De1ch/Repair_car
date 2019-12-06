@@ -61,7 +61,7 @@ namespace WindowsFormsApp1
             cmd.Parameters.AddWithValue("@problem_info", richTextBox1.Text);
 
             // проверка на заполнение полей
-            string err = "";
+            string err = " ";
             foreach (Control c in Controls)
             {
                 if (c is TextBox)

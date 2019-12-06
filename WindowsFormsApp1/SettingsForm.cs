@@ -28,14 +28,16 @@ namespace WindowsFormsApp1
 
 
         private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
+        {                                                           
+            
         }
 
         private void SettingsForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             Properties.Settings.Default.Language = comboBox1.SelectedValue.ToString();
             Properties.Settings.Default.Save();
+
+            Application.Exit();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -44,6 +46,7 @@ namespace WindowsFormsApp1
             {
                 Application.Exit();
             }
+           
         }
 
         private void SettingsForm_Load(object sender, EventArgs e)

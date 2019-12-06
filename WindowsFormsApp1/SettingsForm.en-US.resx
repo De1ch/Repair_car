@@ -140,7 +140,7 @@
     <value>← Back</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>141, 384</value>
+    <value>151, 198</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>Accept</value>

@@ -516,6 +516,8 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             EngineRepair();
+
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -570,5 +572,12 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void WebBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
+        }
+
+       
     }
     } 
