@@ -22,9 +22,9 @@ namespace WindowsFormsApp1
             errorProvider1.SetIconAlignment(comboBox1, ErrorIconAlignment.MiddleRight);
         }
 
-            private void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void SelectModel()
@@ -185,7 +185,11 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+                richTextBox1.Hide();
                 pictureBox1.Hide();
+
+                webBrowser1.Url = new Uri((Application.StartupPath + "file:///F:/WEB/github%20page/Repair_car/WindowsFormsApp1/bin/Debug/Engine/activity.html"));
+
                 StreamReader sr = new StreamReader("Engine/Audi.txt", System.Text.Encoding.Unicode);
 
                 while (!sr.EndOfStream)
@@ -516,8 +520,6 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             EngineRepair();
-
-            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -559,7 +561,8 @@ namespace WindowsFormsApp1
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-
+            
+            
         }
 
 
@@ -570,14 +573,13 @@ namespace WindowsFormsApp1
 
         private void pictureBox1_Click_2(object sender, EventArgs e)
         {
-
+            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
+            pictureBox1.BackColor = Color.Transparent;
         }
 
         private void WebBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
 
         }
-
-       
     }
-    } 
+} 
