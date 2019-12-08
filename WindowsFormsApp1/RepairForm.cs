@@ -185,28 +185,37 @@ namespace WindowsFormsApp1
             if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
-                richTextBox1.Hide();
+               // richTextBox1.Hide();
                 pictureBox1.Hide();
+               // webBrowser1.Show();
+               // webBrowser1.Refresh();
 
-                webBrowser1.Url = new Uri((Application.StartupPath + "file:///F:/WEB/github%20page/Repair_car/WindowsFormsApp1/bin/Debug/Engine/activity.html"));
+               // webBrowser1.Url = new Uri ("https://www.mehanika.ru/informatory/publications/kolonka-mastera/remont-dvigatelya-audi/");
 
                 StreamReader sr = new StreamReader("Engine/Audi.txt", System.Text.Encoding.Unicode);
 
                 while (!sr.EndOfStream)
                     richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
-
             }
             else 
             {
                 richTextBox1.Clear();
+                richTextBox1.Show();
                 pictureBox1.Show();
+               // webBrowser1.Hide();
                 richTextBox1.Text = "Укажите марку и модель автомобиля!";
                 
             }
             if (comboBox1.SelectedIndex == 1 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
+               // richTextBox1.Hide();
                 pictureBox1.Hide();
+               // webBrowser1.Refresh();
+               // webBrowser1.Show();
+
+               // webBrowser1.Url = new Uri("https://www.bmwstyle.ru/8-bmw-world/12-bmw-engine-motors/2291-bmw-engine-repair/");
+
                 StreamReader sr = new StreamReader("Engine/BMW.txt", System.Text.Encoding.Default);
 
                 while (!sr.EndOfStream)
@@ -534,12 +543,14 @@ namespace WindowsFormsApp1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            /* unactive */
+            // unactive 
+            TransmissionRepair();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            /* unactive */
+            // unactive 
+            EngineRepair();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
