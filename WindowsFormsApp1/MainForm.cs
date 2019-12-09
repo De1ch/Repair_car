@@ -39,6 +39,9 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            InstructionForm f1 = new InstructionForm();
+            f1.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
