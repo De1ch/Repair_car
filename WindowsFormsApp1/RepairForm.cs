@@ -181,31 +181,7 @@ namespace WindowsFormsApp1
         }
 
         private void EngineRepair()
-        {
-            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex >= 0)
-            {
-                richTextBox1.Clear();
-               // richTextBox1.Hide();
-                pictureBox1.Hide();
-               // webBrowser1.Show();
-               // webBrowser1.Refresh();
-
-               // webBrowser1.Url = new Uri ("https://www.mehanika.ru/informatory/publications/kolonka-mastera/remont-dvigatelya-audi/");
-
-                StreamReader sr = new StreamReader("Engine/Audi.txt", System.Text.Encoding.Unicode);
-
-                while (!sr.EndOfStream)
-                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
-            }
-            else 
-            {
-                richTextBox1.Clear();
-                richTextBox1.Show();
-                pictureBox1.Show();
-               // webBrowser1.Hide();
-                richTextBox1.Text = "Укажите марку и модель автомобиля!";
-                
-            }
+        { 
             if (comboBox1.SelectedIndex == 1 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
@@ -220,6 +196,13 @@ namespace WindowsFormsApp1
 
                 while (!sr.EndOfStream)
                     richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            else
+            {
+                richTextBox1.Clear();
+                pictureBox1.Show();
+                richTextBox1.Text = "Укажите марку и модель автомобиля!";
+
             }
             if (comboBox1.SelectedIndex == 2 & comboBox2.SelectedIndex >= 0)
             {
@@ -295,34 +278,115 @@ namespace WindowsFormsApp1
             }
         }
 
+        private void EngineRepairAudi()
+        {
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 0)
+            {
+                richTextBox1.Clear();
+                // richTextBox1.Hide();
+                pictureBox1.Hide();
+                // webBrowser1.Show();
+                // webBrowser1.Refresh();
+
+                // webBrowser1.Url = new Uri ("https://www.mehanika.ru/informatory/publications/kolonka-mastera/remont-dvigatelya-audi/");
+
+                StreamReader sr = new StreamReader("Engine/Audi/A1.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 1)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Engine/Audi/A3.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 2)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Engine/Audi/A4.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 3)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Engine/Audi/A8.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 4)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Engine/Audi/RS6.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 5)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Engine/Audi/RS7.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 6)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Engine/Audi/S4.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 7)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Engine/Audi/S7.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 8)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Engine/Audi/SQ2.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+        }
+
         private void TransmissionRepair()
         {
-            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex >= 0)
-            {
-                richTextBox1.Clear();
-                pictureBox1.Hide();
-                StreamReader sr = new StreamReader("Transmission/Audi.txt", System.Text.Encoding.Unicode);
-
-                while (!sr.EndOfStream)
-                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
-
-            }
-            else
-            {
-                richTextBox1.Clear();
-                pictureBox1.Show();
-                richTextBox1.Text = "Укажите марку и модель автомобиля!";
-
-            }
-            if (comboBox1.SelectedIndex == 1 & comboBox2.SelectedIndex >= 0)
-            {
-                richTextBox1.Clear();
-                pictureBox1.Hide();
-                StreamReader sr = new StreamReader("Transmission/BMW.txt", System.Text.Encoding.Default);
-
-                while (!sr.EndOfStream)
-                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
-            }
             if (comboBox1.SelectedIndex == 2 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
@@ -331,6 +395,13 @@ namespace WindowsFormsApp1
 
                 while (!sr.EndOfStream)
                     richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            else
+            {
+                richTextBox1.Clear();
+                pictureBox1.Show();
+                richTextBox1.Text = "Укажите марку и модель автомобиля!";
+
             }
             if (comboBox1.SelectedIndex == 3 & comboBox2.SelectedIndex >= 0)
             {
@@ -395,27 +466,117 @@ namespace WindowsFormsApp1
                 while (!sr.EndOfStream)
                     richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
             }
-        } 
+        }
 
-        private void SuspensionRepair()
+        private void TransmissionRepairAudi()
         {
-            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex >= 0)
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 0)
             {
                 richTextBox1.Clear();
+                // richTextBox1.Hide();
                 pictureBox1.Hide();
-                StreamReader sr = new StreamReader("Suspension/Audi.txt", System.Text.Encoding.Unicode);
+                // webBrowser1.Show();
+                // webBrowser1.Refresh();
+
+                // webBrowser1.Url = new Uri ("https://www.mehanika.ru/informatory/publications/kolonka-mastera/remont-dvigatelya-audi/");
+
+                StreamReader sr = new StreamReader("Transmission/Audi/A1.txt", System.Text.Encoding.Unicode);
 
                 while (!sr.EndOfStream)
                     richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
-
             }
-            else
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 1)
             {
                 richTextBox1.Clear();
-                pictureBox1.Show();
-                richTextBox1.Text = "Укажите марку и модель автомобиля!";
 
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Transmission/Audi/A3.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
             }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 2)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Transmission/Audi/A4.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 3)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Transmission/Audi/A8.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 4)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Transmission/Audi/RS6.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 5)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Transmission/Audi/RS7.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 6)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Transmission/Audi/S4.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 7)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide(); 
+
+                StreamReader sr = new StreamReader("Transmission/Audi/S7.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 8)
+            {
+                richTextBox1.Clear();
+               
+                pictureBox1.Hide();      
+
+                StreamReader sr = new StreamReader("Transmission/Audi/SQ2.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+        }
+
+        private void SuspensionRepair()
+        {
             if (comboBox1.SelectedIndex == 1 & comboBox2.SelectedIndex >= 0)
             {
                 richTextBox1.Clear();
@@ -424,6 +585,13 @@ namespace WindowsFormsApp1
 
                 while (!sr.EndOfStream)
                     richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            else
+            {
+                richTextBox1.Clear();
+                pictureBox1.Show();
+                richTextBox1.Text = "Укажите марку и модель автомобиля!";
+
             }
             if (comboBox1.SelectedIndex == 2 & comboBox2.SelectedIndex >= 0)
             {
@@ -497,7 +665,118 @@ namespace WindowsFormsApp1
                 while (!sr.EndOfStream)
                     richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
             }
-        } 
+        }
+
+        private void SuspensionRepairAudi()
+        {
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 0)
+            {
+                richTextBox1.Clear();
+                // richTextBox1.Hide();
+                pictureBox1.Hide();
+                // webBrowser1.Show();
+                // webBrowser1.Refresh();
+
+                // webBrowser1.Url = new Uri ("https://www.mehanika.ru/informatory/publications/kolonka-mastera/remont-dvigatelya-audi/");
+
+                StreamReader sr = new StreamReader("Suspension/Audi/A1.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 1)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Suspension/Audi/A3.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 2)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Suspension/Audi/A4.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 3)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Suspension/Audi/A8.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 4)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Engine/Audi/RS6.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 5)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Engine/Audi/RS7.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 6)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Suspension/Audi/S4.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 7)
+            {
+                richTextBox1.Clear();
+
+                pictureBox1.Hide();
+
+                StreamReader sr = new StreamReader("Suspension/Audi/S7.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+            if (comboBox1.SelectedIndex == 0 & comboBox2.SelectedIndex == 8)
+            {
+                richTextBox1.Clear();
+                // richTextBox1.Hide();
+                pictureBox1.Hide();
+                // webBrowser1.Show();
+                // webBrowser1.Refresh();
+
+                // webBrowser1.Url = new Uri ("https://www.mehanika.ru/informatory/publications/kolonka-mastera/remont-dvigatelya-audi/");
+
+                StreamReader sr = new StreamReader("Suspension/Audi/SQ2.txt", System.Text.Encoding.Unicode);
+
+                while (!sr.EndOfStream)
+                    richTextBox1.Text += sr.ReadLine() + Environment.NewLine;
+            }
+        }
 
 
         private void toolStripButton1_Click(object sender, EventArgs e)
@@ -529,28 +808,33 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             EngineRepair();
+            EngineRepairAudi();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-             TransmissionRepair(); 
+             TransmissionRepair();
+             TransmissionRepairAudi();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-             SuspensionRepair(); 
+             SuspensionRepair();
+             SuspensionRepairAudi();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             // unactive 
             TransmissionRepair();
+            TransmissionRepairAudi();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             // unactive 
             EngineRepair();
+            EngineRepairAudi();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

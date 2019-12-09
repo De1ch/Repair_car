@@ -90,14 +90,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApp1.exe" size="4378080">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApp1.exe" size="4383200">
       <assemblyIdentity name="WindowsFormsApp1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Zk/M1y5GrRdpIDFtY1pDg88Qw0dXV/wIY9KDpmUEJp0=</dsig:DigestValue>
+        <dsig:DigestValue>pHQnqKu8VheCiJTThQnwJez3mbeyBRurrgpbNQKMryY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -109,7 +109,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Be7N2/BCvYykDW2Vn6GepU0MJmYe7ezXihKgBbtXbFY=</dsig:DigestValue>
+        <dsig:DigestValue>UlIseln9Vm0XkfB9ZY7vIlgRdMM792Sht8L+TeAR/YQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
