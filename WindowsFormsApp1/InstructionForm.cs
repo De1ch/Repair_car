@@ -29,5 +29,30 @@ namespace WindowsFormsApp1
         {
             Application.Exit();
         }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void InstructionForm_Load(object sender, EventArgs e)
+        {
+            groupBox1.Hide();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            
+        }
     }
 }
