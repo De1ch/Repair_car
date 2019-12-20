@@ -150,3 +150,5 @@ C:\Users\user\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\user\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 F:\WEB\github page\Repair_car\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.InstructionForm.resources
 F:\WEB\github page\Repair_car\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.InstructionForm.en-US.resources
+C:\Users\user\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.InstructionForm.resources
+C:\Users\user\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.InstructionForm.en-US.resources
