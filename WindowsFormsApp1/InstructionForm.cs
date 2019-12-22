@@ -44,35 +44,43 @@ namespace WindowsFormsApp1
             }
             if (comboBox1.SelectedIndex == 2)
             {
-                
+                string path = Application.StartupPath + @"\AboutCars\Chevrolet\Chevrolet.html";
+                webBrowser1.Navigate(path);
             }
             if (comboBox1.SelectedIndex == 3)
             {
-                
+                string path = Application.StartupPath + @"\AboutCars\Ford\Ford.html";
+                webBrowser1.Navigate(path);
             }
             if (comboBox1.SelectedIndex == 4)
             {
-                
+                string path = Application.StartupPath + @"\AboutCars\Honda\Honda.html";
+                webBrowser1.Navigate(path);
             }
             if (comboBox1.SelectedIndex == 5)
             {
-                
+                string path = Application.StartupPath + @"\AboutCars\Mazda\Mazda.html";
+                webBrowser1.Navigate(path);
             }
             if (comboBox1.SelectedIndex == 6)
             {
-                
+                string path = Application.StartupPath + @"\AboutCars\Mercedes-Benz\Mercedes-Benz.html";
+                webBrowser1.Navigate(path);
             }
             if (comboBox1.SelectedIndex == 7)
             {
-                
+                string path = Application.StartupPath + @"\AboutCars\Nissan\Nissan.html";
+                webBrowser1.Navigate(path);
             }
             if (comboBox1.SelectedIndex == 8)
             {
-
+                string path = Application.StartupPath + @"\AboutCars\Toyota\Toyota.html";
+                webBrowser1.Navigate(path);
             }
             if (comboBox1.SelectedIndex == 9)
             {
-
+                string path = Application.StartupPath + @"\AboutCars\Volkswagen\Volkswagen.html";
+                webBrowser1.Navigate(path);
             }
         }
 
